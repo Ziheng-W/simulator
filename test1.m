@@ -35,7 +35,8 @@ else
 end
 
 disp("4. Checking received symbol stream")
-if max(abs(sol.rx_symbol_stream - test.rx_symbol_stream)) < 1e-3
+if length(sol.rx_symbol_stream) == length(test.rx_symbol_stream) && ...
+        max(abs(sol.rx_symbol_stream - test.rx_symbol_stream)) < 1e-3
     disp("Passed")
 else
     disp("Failed")

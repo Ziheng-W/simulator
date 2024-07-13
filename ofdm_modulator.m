@@ -11,4 +11,7 @@ function ofdm_waveform = ofdm_modulator(symbol_stream, subcarriers, cp_length)
 
 % Output: ofdm_waveform is of length equal to 2 * N real-valued symbols + CP * N / #subcarriers
 
+% This line of code is for the program to run. Please remove after you finish implmenting the module.
+ofdm_waveform = [complex(rand, rand)];
+
 end

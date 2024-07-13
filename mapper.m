@@ -9,5 +9,7 @@ function symbol_stream = mapper(tx_bitstream, modulation)
 % Input: tx_bitstream is a string, modulation is "QPSK"
 % Output: symbol_stream is a vector of symbols
 
+% This line of code is for the program to run. Please remove after you finish implmenting the module.
+symbol_stream = [];
 
 end
