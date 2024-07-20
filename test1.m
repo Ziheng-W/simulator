@@ -21,7 +21,7 @@ else
 end
 
 disp("2. Checking symbol stream after mapping")
-if sol.tx_bitstream == test.tx_bitstream
+if sol.tx_symbol_stream == test.tx_symbol_stream
     disp("Passed")
 else
     disp("Failed")
