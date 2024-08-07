@@ -4,5 +4,7 @@ In this project, you will impelement with MATLAB several key modules in digital 
 
 To run the program, start with `test1.m`. You can use `test1.m` to debug your code and create more test cases by yourself.
 
-Team members: NAME1 and NAME2.
+Team members: Ziheng Wang 521370910137
+
+### Output is changed from "pass/fail" to "1/0" to make it easier to read
 
